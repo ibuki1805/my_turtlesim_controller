@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="turtlesim" name ="turtlesim_node" type = "turtlesim_node"/>
+    <node pkg="my_turtlesim_controller" name="my_turtlesim_controller" type="my_turtlesim_controller" output="screen">
+    <param name="polygon_num" value = "4"/>
+    <param name = "one_side_length" value = "2"/>
+    </node>
+
+</launch>
